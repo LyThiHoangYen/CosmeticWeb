@@ -1,0 +1,68 @@
+.account__container {
+    background-color: #fefbf4;
+    width: 90%;
+    height: 60%;
+    border-radius: 18px;
+    margin: 2% 5%;
+    padding: 10px 20px;
+}
+
+.account__title {
+    margin-top: 2%;
+    margin-left: 5%;
+    font-weight: bold;
+    width: 100%;
+    font-size: 24px;
+    font-family: 'Barlow';
+    color: #1f1c17;
+}
+
+.account__person {
+    margin-top: 40px;
+    width: 25%;
+}
+
+.person__email {
+    font-size: 16px;
+    color: #414548;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.person__icon {
+    width: 16px;
+    height: 16px;
+}
+
+.account__person p {
+    border-bottom: 1px solid #cbb5885d;
+    margin-bottom: 40px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.person__icon {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.btnDelete {
+    background-color: #ccb48f;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.btnDelete:hover {
+    background-color: rgb(103, 91, 91);
+}
+
+@media screen and (max-width: 1023px) {
+    .account__person p{
+        width: 300%;
+    }
+    .account__container {
+        height: 400px;
+    }
+}

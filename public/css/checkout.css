@@ -1,0 +1,83 @@
+html,
+body {
+    background-color: #F7F0E4;
+    margin: 0;
+}
+
+.divCheckout {
+    margin: 0 2% 2% 2%;
+}
+
+.cus-info-detail {
+    padding-left: 5%;
+}
+
+.div-logo {
+    margin: 0 0 0 6%;
+    padding: 0;
+}
+
+.checkout-img-logo {
+    width: 15%;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain the aspect ratio */
+    max-width: 100%;
+    /* Ensure the image doesn't exceed its natural size */
+    max-height: 100%;
+    /* Ensure the image doesn't exceed its natural size */
+}
+
+.cus-info,
+.cus-payment,
+.cus-cart,
+.cus-coupon,
+.divMainCart {
+    padding: 4%;
+    background-color: #FEFBF4;
+    margin: 2%;
+}
+
+.cus-total {
+    background-color: #1F1C17;
+    padding: 4%;
+    margin: 2%;
+}
+
+.cus-total p,
+h2 {
+    color: #FEFBF4;
+}
+
+.cus-email {
+    padding-bottom: 5%;
+}
+
+.btn-payment {
+    border: solid #E4D1B4 1px;
+    border-radius: 5px;
+    padding: 13% 20% 13% 20%;
+    margin: 0;
+    width: 150px;
+}
+
+.thyanh {
+    width: 46%;
+    margin: 2%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.nownib-1 {
+    width: 66%;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.nownib-2 {
+    width: 29%;
+    margin: 2%;
+    padding: 10px;
+}

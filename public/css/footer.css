@@ -1,0 +1,69 @@
+footer {
+    background-color: #FEFBF4;
+}
+
+.footer-left-img {
+    /* background-image: url("../img/footer-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 900px; */
+    height: fit-content;
+}
+
+.emailForm {
+    padding: 5px 15% 5px 50px;
+}
+
+.custom-input {
+    background-color: transparent; /* Set the background color to transparent */
+    border: none; /* Remove the border */
+  }
+
+#inputEmail {
+    border: none; /* Remove the border */
+    border-radius: 0; /* Optional: Set border-radius to 0 for squared corners */
+    border-bottom: 2px solid #ccc; /* Add a new border if needed */
+    padding-left: 0px; /* Optional: Adjust padding */
+}
+
+.footer-div-information-link {
+    width: 100%;
+
+    min-height: 15%;
+
+    padding: 0;
+    margin: 0;
+}
+
+.footer-info {
+    font-size: 12px;
+    padding: 5px 15% 5px 50px;
+}
+
+.footer-title {
+    font-weight: bold;
+    font-size: 14px;
+
+    padding: 0;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-license-container {
+    width: 100%;
+}
+
+.footer-license {
+    background-color: #1F1C17;
+    color: #C5A25D;
+
+    text-align: left;
+
+    padding: 5% 20% 5% 10%;
+
+    font-size: 50%;
+}

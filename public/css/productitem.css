@@ -1,0 +1,259 @@
+
+html{
+    font-family: 'Nunito';
+}
+.base-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.product-item-base{
+    display: flex;
+    flex-direction: row;
+    padding-right: 40px;
+    width: 50%;
+}
+.img-item-detail{
+    width: 100%;
+    
+}
+.img-product-item{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.product-summary{
+    width: 50%;
+    padding-left: 40px;
+    padding-right: 160px;
+}
+.product-link{
+    text-decoration: none;
+    color: #CCB48F;
+    font-size: 16px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: #CCB48F;
+}
+.product-heading{
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Vollkorn';
+}
+.product-price{
+    font-size: 20px;
+    margin-top: 16px;
+}
+.product-desc{
+    margin-top: 16px;
+    font-size: 14px;
+}
+.suit-desc{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 120px;
+    row-gap: 20px;
+    padding: 20px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.suit-item{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.Suit-da{
+    padding: 20px 0px;
+}
+.logo-summary-brand{
+    display: flex;
+
+}
+.logo-brand{
+    height: 100%;
+    object-fit: contain;
+    width: 6rem;
+    height: 6rem;
+    margin-right: 2rem;
+}
+.btn-background{
+    width: 100%;
+    padding: 16px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 7px;
+    margin-top: 28px;
+}
+.btn-background:hover{
+    background-color: rgb(99, 90, 90);
+}
+.btn-txt, .btn-icon{
+    font-size: 20px;
+}
+.btn-icon{
+    margin-left: 20px;
+}
+.slick-arrow{
+    position: absolute;
+    border-radius: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    width: 60px;
+    height: 60px;
+}
+.slick-arrow:hover{
+}
+
+.slick-prev{
+    left: 0;
+}
+.slick-next{
+    margin-right: 40px ;
+    right: 0;
+}
+.share-comment{
+    margin-top: 10px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+.share-comment{
+    align-items: center;
+}
+.share-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.share-link-logo{
+    margin-right: 4px;
+    width: 32px;
+    height: 32px;
+}
+.logo-share{
+    opacity: 0.7;
+    object-fit:cover;
+    width: 32px;
+    height: 32px;
+}
+.comment-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-fuel{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    background-color: rgb(255, 243, 229);
+    padding-bottom: 100px;
+}
+.img-desc-fuel{
+    width: 50%;
+}
+.img-fuel{
+    object-fit: cover;
+    width: 100%;
+}
+.txt-desc-fuel{
+    width: 50%;
+    padding: 20px 200px 50px 50px;
+}
+.clamped-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Vollkorn';
+    transition-duration: 1s;
+    padding: 5px 0 5px 0;
+  }
+  
+  /* Ẩn nút khi đoạn văn bản đã được hiển thị toàn bộ */
+  #readMoreBtn {
+    display: none;
+  }
+  #readLessBtn {
+    display: none;
+  }
+  #readMoreBtn, #readLessBtn{
+    text-decoration: none;
+    border: none;
+    color: black;
+    background-color: #CCB48F;
+    font-size: 20px;
+    font-family: 'Vollkorn';
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  #readMoreBtn:hover, #readLessBtn:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+  .description-suit-use{
+    display: flex;
+    justify-content: space-between;
+  }
+  .suitable-use{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+    line-height: 24px;
+  }
+  .suitable-heading{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 8px;
+  }
+  .suitable-desc{
+    padding-bottom: 8px;
+  }
+  .elements-descr{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+  }
+  .element-descr-detail-heading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #CCB48F;
+  }
+  .element-descr-detail{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 128px 30px 128px;
+    overflow-y: auto;
+  }
+  .element-descr-item-subheading{
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .element-descr-item{
+    margin: 10px 0 24px;
+  }
+  .element-descr-img-present{
+    width: 60%;
+  }

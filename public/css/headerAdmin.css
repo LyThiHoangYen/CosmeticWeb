@@ -1,0 +1,23 @@
+.header__admin {
+    width: 100%;
+    height: 111px;
+    background-color: #4f6b8832;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.admin__left img {
+    width: 180px;
+    height: 75px;
+}
+.admin__right, .admin__left {
+    display: flex;
+    align-items: center;
+}
+.group__manager {
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}

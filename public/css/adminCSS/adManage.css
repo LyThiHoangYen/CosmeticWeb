@@ -1,0 +1,108 @@
+.coupon {
+    width: 360px;
+    height: 300px;
+    background-color: #fefbf4;
+    position: relative;
+    margin-left: 14%;
+    border-radius: 15px;
+    box-shadow: 0 1px 21px rgba(229, 184, 96, .25);
+}
+
+.container__input {
+    padding: 10px;
+    margin-top: 8px;
+}
+
+.container__btn {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.group__input {
+    width: 200px;
+    height: 35px;
+    margin-right: 20px;
+    position: absolute;
+    right: 0;
+    border-color: #C5A25D;
+}
+
+#btnCoupon {
+    border-radius: 5px;
+    background-color: #fefbf4;
+}
+
+#btnCoupon:hover {
+    background-color: #4145485b;
+}
+
+.announce {
+    position: fixed;
+    top: 36%;
+    left: 36%;
+    right: 36%;
+    bottom: 15%;
+    background-color: #fefbf4;
+    width: 28%;
+    height: 28%;
+    z-index: 103;
+    opacity: 0;
+    border-radius: 8px;
+    box-shadow: 0 1px 21px rgba(229, 184, 96, .25);
+    padding: 24px;
+    display: none;
+}
+
+.show__announce {
+    opacity: 1;
+    display: block;
+    animation: fadeIn 1.5s ease;
+}
+
+.btnOK {
+    position: absolute;
+    width: 28%;
+    height: 14%;
+    margin: 4% 30%;
+    bottom: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.btnOK:hover {
+    background-color: #414548;
+}
+
+#message__announce {
+    font-size: 22px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+    .announce {
+        position: fixed;
+        top: 20%;
+        left: 10%;
+        right: 10%;
+        bottom: 15%;
+        background-color: #fefbf4;
+        width: 80%;
+        height: 35%;
+        z-index: 103;
+        border-radius: 8px;
+        box-shadow: 0 1px 21px rgba(229, 184, 96, .25);
+        padding: 24px;
+    }
+
+    .btnOK {
+        width: 18%;
+        height: 14%;
+        margin: 2% 34%;
+    }
+}
