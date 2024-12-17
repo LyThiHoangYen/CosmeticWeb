@@ -21,6 +21,9 @@ jobs:
         with:
           php-version: '8.3'
 
+      - name: Run PHP lint check
+        run: php -l ./index.php
+
       - name: Check if composer.json exists
         id: check_files
         uses: andstor/file-existence-action@v1
@@ -30,6 +33,10 @@ jobs:
       - name: Run composer install if composer.json exists
         if: steps.check_files.outputs.files_exists == 'true'
         run: composer validate --no-check-publish && composer install --prefer-dist --no-progress
+
+      - name: Run PHPUnit tests
+        if: steps.check_files.outputs.files_exists == 'true'
+        run: vendor/bin/phpunit --testdox
 
       - name: Zip artifact for deployment
         run: zip release.zip ./* -r
