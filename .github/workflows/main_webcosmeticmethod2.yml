@@ -34,6 +34,10 @@ jobs:
         if: steps.check_files.outputs.files_exists == 'true'
         run: composer validate --no-check-publish && composer install --prefer-dist --no-progress
 
+
+      - name: Install PHPUnit
+        run: composer require --dev phpunit/phpunit ^9.5
+
       - name: Run PHPUnit tests
         if: steps.check_files.outputs.files_exists == 'true'
         run: vendor/bin/phpunit --testdox
