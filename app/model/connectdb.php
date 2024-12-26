@@ -4,7 +4,7 @@ $host = getenv('DB_HOST');  // Ví dụ: cosmecticphp.mysql.database.azure.com
 $username = getenv('DB_USERNAME');  // Ví dụ: cosmeticphp@cosmecticphp
 $password = getenv('DB_PASSWORD');  // Ví dụ: 123456
 $dbname = getenv('DB_DATABASE');  // Ví dụ: web
-$ssl_ca = getenv('MYSQL_ATTR_SSL_CA');  // Cấu hình SSL nếu có
+$ssl_ca = getenv('MYSQL_ATTR_SSL_CA');  // Cấu hình SSL
 
 // Tạo kết nối với MySQL
 $conn = new mysqli($host, $username, $password, $dbname);
